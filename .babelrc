@@ -1,0 +1,9 @@
+{
+    //Babel/core -> incluye todas las herramientas para transformar a código moderno nuestro JS
+    //babel-loader -> se encarga de trabajar con WebPack
+    //Los preset nos ayudan a entender y transforma nuestro código de JS como React
+    "presets": [
+        "@babel/preset-env", //Trabajar con ESC 5 y 6
+        "@babel/preset-react" //Trabajar con React y JSX
+    ]
+}
